@@ -10,7 +10,7 @@ import Foundation
 class UploaderDefaults: NSObject {
     static let shared = UploaderDefaults()
 
-    private static let prefCallbackHandle = "flutter_uploader.callbackHandle"
+    private static let prefCallbackHandle = "flutter_uploader.callbackHandle2"
 
     var callbackHandle: Int? {
         get {
